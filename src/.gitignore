@@ -1,0 +1,19 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore yarn and npm log files
+yarn-error.log
+npm-debug.log*
+
+# Ignore build outputs
+/build
+
+# Ignore environment variables
+.env
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+*.log
