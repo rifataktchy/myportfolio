@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.dfed9a56.css",
-    "main.js": "/myportfolio/static/js/main.14111775.js",
+    "main.css": "/myportfolio/static/css/main.1872eedf.css",
+    "main.js": "/myportfolio/static/js/main.4ccab2e0.js",
     "static/media/C_V.pdf": "/myportfolio/static/media/C_V.a0f6609446a50ed1f480.pdf",
     "static/media/design.PNG": "/myportfolio/static/media/design.cb9a1ef10aba8e76c11f.PNG",
     "static/media/donate.PNG": "/myportfolio/static/media/donate.6022964d0c19e473bfb9.PNG",
@@ -9,7 +9,9 @@
     "static/media/cricket.PNG": "/myportfolio/static/media/cricket.b104104c9171d73ac72c.PNG",
     "static/media/pet.PNG": "/myportfolio/static/media/pet.e5d307d58033f328c6db.PNG",
     "static/media/decorella.PNG": "/myportfolio/static/media/decorella.4c6ccb40d26aa9db32ef.PNG",
+    "static/media/project5.pdf": "/myportfolio/static/media/project5.506b5855b6626217675d.pdf",
     "static/media/project4.pdf": "/myportfolio/static/media/project4.ba3a52e7a1d6a102bcf4.pdf",
+    "static/media/merathon.jpg": "/myportfolio/static/media/merathon.d5a1ada77165e0a56c24.jpg",
     "static/media/donationDB.JPG": "/myportfolio/static/media/donationDB.e3af5d0a0d299a6e2562.JPG",
     "static/media/donations.JPG": "/myportfolio/static/media/donations.60bff1db09502e63353f.JPG",
     "static/media/project1.pdf": "/myportfolio/static/media/project1.9370b43cd8269387d861.pdf",
@@ -26,11 +28,11 @@
     "static/media/project2.pdf": "/myportfolio/static/media/project2.3d35538909e482d09183.pdf",
     "static/media/project3.pdf": "/myportfolio/static/media/project3.85d5270f370a48c392d0.pdf",
     "index.html": "/myportfolio/index.html",
-    "main.dfed9a56.css.map": "/myportfolio/static/css/main.dfed9a56.css.map",
-    "main.14111775.js.map": "/myportfolio/static/js/main.14111775.js.map"
+    "main.1872eedf.css.map": "/myportfolio/static/css/main.1872eedf.css.map",
+    "main.4ccab2e0.js.map": "/myportfolio/static/js/main.4ccab2e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfed9a56.css",
-    "static/js/main.14111775.js"
+    "static/css/main.1872eedf.css",
+    "static/js/main.4ccab2e0.js"
   ]
 }
