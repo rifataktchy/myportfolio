@@ -10,6 +10,8 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
+import logo from "../assets/logo.JPG";
+import C_V from "../assets/C_V.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,6 +19,11 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#588094] font-bold text-[#fdfdfd] text-xl'>
+      <img
+            className="rounded-full w-[20px] sm:w-[40px] md:w-[60px] lg:w-[80px] object-cover"
+            src={logo}
+            alt="logo"
+          />
       <div>
        
       </div>
@@ -93,14 +100,23 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      {/* <button className="text-white rounded-lg group border-2 p-4 flex items-center justify-center hover:bg-[#6494ac]">
+      <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href={C_V} download="Rifhat_Resume.pdf"
+            >
+                    Resume
+                  </a>
+                  
+                </button>*/}
 
       {/* Social icons */}
-      {/* <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#588094]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/rifhat-akther-chowdhury-543463255/'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -108,15 +124,15 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/rifataktchy'
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#588094]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='mailto:rifataktchy@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -124,13 +140,13 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href={C_V}
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
-      </div> */}
+      </div>
     </div>
   );
 };
