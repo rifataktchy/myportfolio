@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.1872eedf.css",
-    "main.js": "/myportfolio/static/js/main.4ccab2e0.js",
-    "static/media/C_V.pdf": "/myportfolio/static/media/C_V.a0f6609446a50ed1f480.pdf",
+    "main.js": "/myportfolio/static/js/main.e05e0e4f.js",
     "static/media/design.PNG": "/myportfolio/static/media/design.cb9a1ef10aba8e76c11f.PNG",
     "static/media/donate.PNG": "/myportfolio/static/media/donate.6022964d0c19e473bfb9.PNG",
     "static/media/pp.png": "/myportfolio/static/media/pp.5dd366a332338aba2386.png",
@@ -11,6 +10,7 @@
     "static/media/decorella.PNG": "/myportfolio/static/media/decorella.4c6ccb40d26aa9db32ef.PNG",
     "static/media/project5.pdf": "/myportfolio/static/media/project5.506b5855b6626217675d.pdf",
     "static/media/project4.pdf": "/myportfolio/static/media/project4.ba3a52e7a1d6a102bcf4.pdf",
+    "static/media/C_V.pdf": "/myportfolio/static/media/C_V.ef3a1b14e242849ccef6.pdf",
     "static/media/merathon.jpg": "/myportfolio/static/media/merathon.d5a1ada77165e0a56c24.jpg",
     "static/media/donationDB.JPG": "/myportfolio/static/media/donationDB.e3af5d0a0d299a6e2562.JPG",
     "static/media/donations.JPG": "/myportfolio/static/media/donations.60bff1db09502e63353f.JPG",
@@ -29,10 +29,10 @@
     "static/media/project3.pdf": "/myportfolio/static/media/project3.85d5270f370a48c392d0.pdf",
     "index.html": "/myportfolio/index.html",
     "main.1872eedf.css.map": "/myportfolio/static/css/main.1872eedf.css.map",
-    "main.4ccab2e0.js.map": "/myportfolio/static/js/main.4ccab2e0.js.map"
+    "main.e05e0e4f.js.map": "/myportfolio/static/js/main.e05e0e4f.js.map"
   },
   "entrypoints": [
     "static/css/main.1872eedf.css",
-    "static/js/main.4ccab2e0.js"
+    "static/js/main.e05e0e4f.js"
   ]
 }
