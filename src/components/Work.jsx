@@ -25,7 +25,7 @@ const Work = () => {
         </div>
 
         {/* Grid container for project cards */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10'>
 
         <div style={{ backgroundImage: `url(${matrimony})`, backgroundSize: 'cover' }} className='h-[280px] shadow-lg shadow-[#6c6c6d] group container rounded-md flex justify-center items-center mx-auto contect-div'>
             <div className='opacity-0 group-hover:opacity-100 pl-8'>
@@ -127,7 +127,7 @@ const Work = () => {
             <span className='text-1xl font-bold rounded-t-lg bg-[#6494ac] p-2 text-white-600 tracking-wider'>
                 React+firebase+express
                 </span>
-              <p className='text-1xl font-bold rounded-b-lg bg-[#6494ac] p-2 text-white-600'>+mongoDB</p>
+              <p className='text-1xl font-bold rounded-b-lg bg-[#6494ac] p-2 text-white-600'>+mongoDB+AI Assistant</p>
               <div className="pt-3 text-left flex-col">
               <a href='https://merathon-management-system.netlify.app/' target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#6494ac] text-white font-bold text-lg">
@@ -154,7 +154,7 @@ const Work = () => {
           </div>
 
           {/* Decorella project */}
-          <div style={{ backgroundImage: `url(${decorella})`, backgroundSize: 'cover' }} className='h-[280px] shadow-lg shadow-[#6c6c6d] group container rounded-md flex justify-center items-center mx-auto contect-div'>
+          {/* <div style={{ backgroundImage: `url(${decorella})`, backgroundSize: 'cover' }} className='h-[280px] shadow-lg shadow-[#6c6c6d] group container rounded-md flex justify-center items-center mx-auto contect-div'>
             <div className='opacity-0 group-hover:opacity-100 pl-8'>
               <span className='text-1xl font-bold rounded-lg bg-[#6494ac] p-2 text-white-600 tracking-wider'>
                 React Website
@@ -175,7 +175,7 @@ const Work = () => {
           
               </div>
             </div>
-          </div>
+          </div> */}
           
 
           {/* Cricket project */}
@@ -225,7 +225,7 @@ const Work = () => {
           <div style={{ backgroundImage: `url(${donationDB})`, backgroundSize: 'cover' }} className='h-[280px] shadow-lg shadow-[#6c6c6d] group container rounded-md flex justify-center items-center mx-auto contect-div'>
             <div className='opacity-0 group-hover:opacity-100 pl-8'>
             <span className='text-1xl font-bold rounded-t-lg bg-[#6494ac] p-2 text-white-600 tracking-wider'>
-                React+firebase+express
+                TypeScript+firebase+express
                 </span>
               <p className='text-1xl font-bold rounded-b-lg bg-[#6494ac] p-2 text-white-600'>+mongoDB</p>
               <div className="pt-3 text-left flex-col">

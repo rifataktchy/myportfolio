@@ -17,7 +17,7 @@ const About = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1 }}
             >
-            <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>I am a passionate web developer with a Master’s in Management Information Systems and a Bachelor’s in Electronics and Communication Engineering. Skilled in React.js, HTML, CSS, and JavaScript, I enjoy creating responsive, user-friendly websites. My career spans roles in web development and IT education, showcasing my ability to build impactful digital solutions and foster technology-friendly environments.</motion.p>   
+            <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>I am a passionate web developer with a Master’s in Management Information Systems and a Bachelor’s in Electronics and Communication Engineering. Skilled in React.js, HTML, CSS, TypeScript and JavaScript, I enjoy creating responsive, user-friendly websites. My career spans roles in web development and IT education, showcasing my ability to build impactful digital solutions and foster technology-friendly environments.</motion.p>   
         </motion.div>
         <div className='max-w-[1000px] gap-8'>
           <div className='pt-4 pb-2'>
